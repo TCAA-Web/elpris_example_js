@@ -4,6 +4,8 @@
     gap: 16px;
     justify-content: center;
     align-items: center;
+    background-color: #222;
+    width: 100vw;
 }
 
 .navbar ul {
@@ -13,4 +15,9 @@
     justify-content: end;
     align-items: center;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.navbar img {
+    width: 42px;
+    margin-left: 16px;
 }

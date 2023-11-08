@@ -7,11 +7,14 @@ body {
 
 body main {
     display: grid;
+    justify-content: center;
+    justify-items: center;
 }
 
 .settingsButton {
     width: 5%;
     justify-self: end;
+    margin: 32px;
 }
 
 .title {
@@ -23,7 +26,8 @@ body main {
     display: grid;
     gap: 8px;
     width: 70%;
-    margin: auto;
+    margin: 0;
+    padding: 0;
 }
 
 .priceListItem {
@@ -32,4 +36,23 @@ body main {
     padding-left: 8px;
     grid-template-columns: 1fr 1fr;
     color: white;
+}
+
+.priceListItem, input[type="date"]{
+    border-radius: 8px;
+}
+
+input[type="date"]{
+    width: 70%;
+    height: 60px;
+    background-color: #222;
+    color: white;
+    margin:auto;
+    outline: none;
+    border: none;
+    margin-bottom: 8px;
+}
+
+input[type="date"]:focus{
+    border: solid 1px yellowgreen;
 }
