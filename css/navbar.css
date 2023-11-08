@@ -1,0 +1,16 @@
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    display: grid;
+    color: greenyellow;
+    gap: 16px;
+    justify-content: end;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}

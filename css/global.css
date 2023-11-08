@@ -1,0 +1,35 @@
+body {
+    background-color: #333;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body main {
+    display: grid;
+}
+
+.settingsButton {
+    width: 5%;
+    justify-self: end;
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+.priceList {
+    display: grid;
+    gap: 8px;
+    width: 70%;
+    margin: auto;
+}
+
+.priceListItem {
+    background-color: #222;
+    display: grid;
+    padding-left: 8px;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+}
